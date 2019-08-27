@@ -17,10 +17,10 @@
             </div>
             <form action="enviar.php" method="POST">
                     
-                <input type="text" name="nombre" placeholder="Nombre" class="input-nombre">
-                <input type="text" name="correo" placeholder="Correo" class="input-correo">
-                <input type="text" name="telefono" placeholder="Telefono" class="input-telefono">
-                <textarea name="mensaje" class="textarea" placeholder="Mensaje:"></textarea>
+                <input type="text" name="nombre" placeholder="Nombre" class="input-nombre" required >
+                <input type="text" name="correo" placeholder="Correo" class="input-correo" required>
+                <input type="text" name="telefono" placeholder="Telefono" class="input-telefono" required>
+                <textarea required name="mensaje" class="textarea" placeholder="Mensaje:"></textarea>
                 <input type="submit" value="Enviar">
                 
             </form>
