@@ -7,5 +7,5 @@ $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 $contenido = "nombre" . $nombre . "\ncorreo" . $correo . "\ntelefono" . $telefono . "\nmensaje" . $mensaje;
 mail($destino, "Contenido", $contenido);
-header('location:index.html'); 
+header('location:saludo.html'); 
 ?>
